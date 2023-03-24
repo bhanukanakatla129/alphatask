@@ -1,0 +1,319 @@
+
+.allo_Doc::-webkit-scrollbar {
+  display: none !important;
+
+}
+
+.allo_Doc {
+  overflow-y: scroll;
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important; 
+}
+.alloDocHeader {
+  display: inline-flex;
+  background-color: #ffffff;
+  justify-content: space-between;
+  width: 100%;
+  font-family: sans-serif;
+  padding: 10px 50px;
+}
+.alloDocTest {
+  color: #00317b;
+  font-size: 28px;
+  font-weight: 600;
+}
+.HeaderDetails {
+  /* margin-left: auto; */
+  width: 500px;
+}
+.logoutButton {
+  width: 164px;
+  height: 62px !important;
+  background: #ffffff;
+  border: 1px solid #00317b !important;
+  border-radius: 16px !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: #00317b !important;
+}
+.headerName {
+  font-weight: 600;
+  font-size: 20px;
+  align-items: center;
+  color: #14161a;
+}
+.headersubName {
+  font-weight: 400;
+  font-size: 16px;
+  align-items: center;
+  color: #a4abb7;
+}
+.ProfileBody {
+  background-color: #ededf5;
+  padding: 10px 50px;
+  font-family: sans-serif;
+}
+.mainProfile {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 40px;
+}
+.DrName {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color: #14161a;
+}
+.DrProf {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+
+  color: #a4abb7;
+}
+.slotsAvl {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #5aa52c;
+}
+.slotsDiv {
+  margin-top: 100px;
+}
+.HospRow {
+  padding-top: 17px;
+  padding-bottom: 10px;
+}
+.HospAddress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 1px;
+
+  color: #a4abb7;
+}
+.HospName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+
+  color: #14161a;
+}
+.getDire {
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration-line: underline;
+  color: #0066ff;
+}
+.directionsDiv {
+  margin-top: 75px;
+}
+.slotButtonDiv {
+  margin-top: 175px;
+  text-align: right;
+}
+.slotButton {
+  width: 220px !important;
+  height: 52px !important;
+  background: #00317b !important;
+  border-radius: 16.6667px !important;
+  color: #fff !important;
+}
+.bodyProfile {
+  background: #fff;
+  border-radius: 24px;
+  padding: 40px 60px;
+  margin-top: 25px;
+}
+/* profile body css */
+.P_profile {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  align-items: center;
+  color: #14161a;
+}
+.P_profileRow {
+  margin-bottom: 30px;
+}
+.P_expertise {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #14161a;
+}
+.P_expertiseRow {
+  padding: 25px 0px 40px 0px;
+  border-bottom: 1px solid #e8eef8;
+}
+.P_expertiseRow .ant-tag {
+  color: #0066ffc2;
+  background: #dceaffb5;
+  font-weight: 600;
+  border: none;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 10px;
+}
+.P_license {
+  padding: 40px 0px;
+  border-bottom: 1px solid #e8eef8;
+}
+.P_LicNumber {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #14161a;
+}
+.P_LicNumber_span {
+  color: #a4abb7 !important;
+}
+.P_LicNumber_number {
+  letter-spacing: 3px;
+}
+.P_LicRow {
+  padding: 10px 0px;
+}
+.P_Experience {
+  width: 100%;
+  padding: 40px 0px;
+}
+.P_expClose {
+  margin-left: auto;
+  text-align: right;
+}
+.ExperinceRow {
+  margin-bottom: 15px;
+}
+.P_instituteName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  color: #14161a;
+}
+.exp_detailsRow {
+  padding: 7px 0px;
+}
+.exp_details {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #a4abb7 !important;
+  font-family: serif;
+}
+.P_expList {
+  padding: 30px 0px;
+  border-bottom: 1px solid #e8eef8;
+}
+.P_memberships {
+  padding: 30px 0px;
+  border-bottom: 1px solid #e8eef8;
+}
+.memberShipRow {
+  padding: 10px 0px;
+}
+.memberShipName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  color: #14161a;
+}
+.clinicRow {
+  margin-bottom: 25px;
+}
+.C_hospName,
+.C_info {
+  font-weight: 550;
+  font-size: 24px;
+  color: #14161a;
+}
+.C_address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #a4abb7 !important;
+}
+.C_direction {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration-line: underline;
+  color: #0066ff !important;
+}
+.C_number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #0066ff !important;
+}
+.C_addressRow {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e8eef8;
+}
+.clinicHoursRow {
+  margin: 10px 0px;
+  width: 100%;
+}
+.C_header {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  color: #14161a;
+}
+.C_open {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #81ca55 !important;
+}
+.C_day,
+.C_time {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 18px;
+  color: #14161a;
+  line-height: 36px;
+}
+.clinicImages {
+  height: 350px;
+  border-radius: 10px !important;
+  width: 350px;
+}
+.rec-item-wrapper,
+.rec-carousel-item {
+  width: 350px !important;
+}
+.rec-slider-container {
+  width: 350px !important;
+}
+.rec-carousel-wrapper {
+  height: 468px;
+}
+.rec-arrow-left,
+.rec-arrow-right {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  width: 0px !important;
+  min-width: 10px !important;
+}
+.rec-dot {
+  height: 5px !important;
+  width: 5px !important;
+}
+.rec-dot_active {
+  height: 5px !important;
+  width: 5px !important;
+  background-color: #0066ff !important;
+  box-shadow: 0 0 1px 3px #0066ff !important;
+}
+.rec-carousel{
+  width: 400px !important;
+}
